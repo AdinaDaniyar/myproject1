@@ -20,7 +20,7 @@ header{
     width: 100%;
     z-index: 1;
     padding: 15px 0;
-    background-color: rgb(138, 194, 107);
+    background-color: lightblue;
 }
 
 .header__nav{
@@ -43,7 +43,7 @@ header{
 
 .nav li a{
     font-size: 20px;
-    color: black;
+    color: red;
     text-decoration: none;
 }
 /* header */
