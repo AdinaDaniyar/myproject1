@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+
+
+.backdrop{
+
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 1;
+    display: none;
+}
+
+/* for toggle in js  */
+.backdropActive{
+    display: block;
+
+}
+
+/* for toggle in js  */
+
+.modal{
+    position: fixed;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: white;
+    width: 30%;
+    height: 60%;
+    padding: 10px;
+    display: none;
+    background-image: url('https://kartinkin.net/uploads/posts/2021-07/thumbs/1627507380_2-kartinkin-com-p-temno-zelenii-fon-tekstura-krasivo-2.jpg');
+   
+}
+
+/* for toggle in js  */
+
+.modalActive{
+    display: block;
+}
+
+/* for toggle in js  */
+
+
+
+
+.modalCloseButton span{
+    position: absolute;
+    display: block;
+    width: 15px;
+    height: 3px;
+    background-color: black;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+
+}
+
+.modalCloseButton span:first-child{
+    transform: rotate(45deg);
+}
+
+.modalCloseButton span:last-child{
+    transform: rotate(-45deg);
+}
+
+.modalOrder{
+    padding: 10px;
+    border-radius: 10%;
+    background-color: rgb(179, 179, 176);
+    top:20px;
+    font-size: 25px;
+    font-family: 'Ms Madi', cursive;
+    color: white;
+    margin: 50px 150px 0 150px;
+    
+    
+}   
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    color:white;
+    font-family: 'Ms Madi', cursive;
+    font-weight: bold;
+}
+.contentText{
+    font-size: 35px;
+    text-align: center;
+    margin:20px;
+    font-family: 'Ms Madi', cursive;
+    color:white;
+
+}
+p{
+    font-size: 40px;
+    color: white;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    margin-top: 50px;
+}
